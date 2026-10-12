@@ -110,7 +110,7 @@ define(function (require, exports, module) {
             return rulerColumns.map(function (column, index) {
                 return {
                     color: rulerColors[index] ? rulerColors[index] : defaultColor,
-                    column: column
+                    column: column,
                     lineStyle: "solid !important"
                 };
             });
